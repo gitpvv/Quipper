@@ -1,0 +1,130 @@
+body {
+	background-color  : black;
+	background-image  : url('../images/wtq.jpg');
+	background-repeat : no-repeat;
+	background-size   : 100% auto;
+
+	height : 100%;
+	margin-left : 5%;
+}
+
+/* Area between header and footer */
+div#container {
+	display: table;
+	height : 80%;
+	width : 100%;
+}
+
+/*
+    div#center contains both div#left and div#right.
+    The contents of the left and right divs will be
+    vertically aligned in the middle of the page.
+*/
+div#center {
+	border : thin solid cyan;
+	color : white;
+	display: table-cell;
+	vertical-align : middle;
+}
+
+div#left {
+	float : left;
+	font-family : sans-serif;
+	margin-left : 5%;
+	width : 55%;
+}
+
+div#right {
+/*	border : thin solid yellow; */
+	color : white;
+	float : left;
+	font-family : sans-serif;
+	margin-left : 5%;
+	width : 30%;
+}
+
+div.welcomeMsg h1 {
+	font-size   : 18px;
+	font-weight : bold;
+}
+
+div.welcomeMsg p {
+	font-size   : 18px;
+	font-weight : normal;
+}
+
+footer {
+	border : thin solid white;
+	color : white;
+	height : 10%;
+/*	margin-bottom : 2%; */
+/*	position : absolute; bottom : 0; */
+/*	width : 100%; */
+}
+
+form {
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	border: 1px solid #EEEEEE;
+	background : #EEEEEE;
+	background-image: -webkit-linear-gradient(top, #FCFCFC, #CCCCCC);
+	padding : 0.5em;
+}
+
+form#signIn {
+}
+
+form#signUp {
+	margin-top : 1em;
+}
+
+form input {
+	margin-bottom : 5px;
+}
+
+header {
+	border : thin solid red;
+	color : white;
+	height : 8%;
+}
+
+html {
+	height : 100%;
+}
+
+input {
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	border: 1px solid gray;
+	background : #EEEEEE;
+	color : gray;
+	display : block;
+	font-family : sans-serif;
+	font-size   : 13px;
+	height : 25px;
+}
+
+input#btnSignIn {
+	background-image: -webkit-linear-gradient(top, #2DADDC, #0372C0);
+	border: 1px solid #096EB3;
+	color : white;
+	display : inline;
+}
+
+input#btnSignUp {
+	background-image: -webkit-linear-gradient(top, #FED749, #FD9713);
+	border: 1px solid #EC8B11;
+	color : #343433;
+	float : right;
+}
+
+input#signInName {
+	width  : 230px;
+}
+
+input#signInPasswd {
+	display : inline;
+}
+

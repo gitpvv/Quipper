@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qupper</title>
+        <link rel="stylesheet" href="<?php echo base_url();?>css/styles.css" type="text/css" media="screen"/>
+</head>
+
+<body>
+    <header>
+        <h2>Header Region</h2>
+    </header>
+
+    <div id="container">
+        <div id="center">
+            <div id="left">
+                <div class="welcomeMsg">
+                    <h1>Welcome to Quipper.</h1>
+                    <p>Find out what&#8217;s happening, right now, with the people and organizations you care about.</p>
+                </div>
+            </div>
+    
+            <div id="right">
+                <form id="signIn" action="#">
+                    <input type="text" id="signInName" name="signInName" value="Username or email"/>
+                    <input type="text" id="signInPasswd" name="signInPasswd" value="Password" />
+                    <input type="submit" id="btnSignIn" name="btnSignIn" value="Sign in" />
+                </form>
+        
+                <form id="signUp" action="#">
+                    <input type="text" name="signUpName"   value="Full name"/>
+                    <input type="text" name="signUpEmail"  value="Email"/>
+                    <input type="text" name="signUpPasswd" value="Password" />
+                    <input type="submit" id="btnSignUp" name="btnSignUp"  value="Sign up for Quipper" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+      <ul class="ulFooter">
+        <li>About</li>
+        <li>Help</li>
+        <li>Blog</li>
+      </ul>
+    </footer>
+
+</body>
+</html>

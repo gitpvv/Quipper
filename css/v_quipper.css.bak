@@ -1,0 +1,120 @@
+body {
+	background-color  : black;
+	background-image  : url('../images/wtq.jpg');
+	background-repeat : no-repeat;
+	background-size   : 100% auto;
+
+/*	height : 100%; */
+	margin-left : 5%;
+}
+
+div#container {                        /* Area between header and footer */
+	border : thin solid blue;
+	margin  : 0 auto;
+	height  : 450px;
+	width   : 800px;
+}
+
+div#left {
+	border : thin solid green;
+	color  : white;
+	font-family : sans-serif;
+	position : relative; top : 200px; left : 0;
+	width    : 400px;
+}
+
+div#right {
+	border : thin solid yellow;
+	color : white;
+	font-family : sans-serif;
+	position : relative; top : 150px; left : 600px;
+	width    : 260px;
+}
+
+div.welcomeMsg h1 {
+	font-size   : 18px;
+	font-weight : bold;
+}
+
+div.welcomeMsg p {
+	font-size   : 18px;
+	font-weight : normal;
+}
+
+footer {
+	border : thin solid white;
+	color : white;
+	height : 10%;
+/*	margin-bottom : 2%; */
+/*	position : absolute; bottom : 0; */
+/*	width : 100%; */
+}
+
+form {
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	border: 1px solid #EEEEEE;
+	background : #EEEEEE;
+	background-image: -webkit-linear-gradient(top, #FCFCFC, #CCCCCC);
+	padding : 0.5em;
+}
+
+form#signIn {
+}
+
+form#signUp {
+	margin-top : 1em;
+}
+
+form input {
+	margin-bottom : 5px;
+}
+
+header {
+	border : thin solid red;
+	color : white;
+	height : 8%;
+}
+
+/*
+html {
+	height : 100%;
+}
+*/
+
+input {
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	border: 1px solid gray;
+	background : #EEEEEE;
+	color : gray;
+	display : block;
+	font-family : sans-serif;
+	font-size   : 13px;
+	height : 25px;
+}
+
+input#btnSignIn {
+	background-image: -webkit-linear-gradient(top, #2DADDC, #0372C0);
+	border: 1px solid #096EB3;
+	color : white;
+	display : inline;
+}
+
+input#btnSignUp {
+	background-image: -webkit-linear-gradient(top, #FED749, #FD9713);
+	border: 1px solid #EC8B11;
+	color : #343433;
+	float : right;
+}
+
+input#signInName {
+	width  : 230px;
+}
+
+input#signInPasswd {
+	display : inline;
+}
+
